@@ -1,0 +1,224 @@
+#logoimage
+{
+	width: 40px;
+}
+
+.navbar
+{
+	background-color: #423752;
+}
+
+.nav-link
+{
+	color: #fff ;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+}
+
+.navbar-brand
+{
+	color: #fff ;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 1300;
+    font-style: normal;
+}
+
+.jumbotron 
+{
+	text-align: center;
+	background-color: #b8b1bd;
+	width: 100%;
+	height: 85vh;
+	border-radius: 0rem;
+}
+#hero img
+{
+	width: 100%;
+	height: 70vh;
+}
+
+#hero h2
+{
+	color: #fff;
+	line-height-step: 20px;
+}
+
+#hero h1,h2,h3,h4,h5,h6
+{
+	font-family: "Roboto", sans-serif;
+  	font-style: normal;
+  	text-transform: uppercase;
+}
+
+#changetext 
+{
+	color: #fff;
+	font-size: 40px;
+}
+
+#changetext:after
+{
+	content: " ";
+	animation-name: changetextanim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes changetextanim
+{
+	0%
+	{
+		content: "India"
+	}
+
+	10%
+	{
+		content: "Canada"
+	}
+
+	20%
+	{
+		content: "Italy"
+	}
+
+	30%
+	{
+		content: "Spain"
+	}
+
+	40%
+	{
+		content: "Russia"
+	}
+
+	50%
+	{
+		content: "Egypt"
+	}
+
+	60%
+	{
+		content: "Dubai"
+	}
+
+	70%
+	{
+		content: "Germany"
+	}
+
+	80%
+	{
+		content: "France"
+	}
+
+	90%
+	{
+		content: "India"
+	}
+
+	100%
+	{
+		content: "Turkey"
+	}
+}
+
+#package #star
+{
+	color: orange;
+	font-size: 25px;
+	margin: 20px 0px; 
+}
+
+#package p,h3,h1
+{
+	color: #423752;
+	font-family: "Roboto", sans-serif;
+}
+
+#package h1
+{
+  	font-weight: 600;
+}
+
+#package .card
+{
+	border-radius: 20px;
+	height: 550px;
+}
+
+#book h1
+{
+  	font-weight: 900;
+  	color: #423752;
+	font-family: "Roboto", sans-serif;
+}
+
+#service h1
+{
+  	font-weight: 600;
+  	color: #423752;
+	font-family: "Roboto", sans-serif;
+}
+
+#service .card
+{
+	height: 250px;
+	border-radius: 20px;
+	font-size: 10px;
+	color: #423752;
+	font-family: "Roboto", sans-serif;
+}
+
+#carouselExampleIndicators p
+{	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Roboto", sans-serif;
+}
+
+#carouselExampleIndicators img
+{
+	width: 100%;
+	height: 85vh;
+}
+
+#aboutus h2
+{
+	text-shadow: 3px 3px black;
+	text-align: center;
+	color: #423752;
+	font-family: "Roboto", sans-serif;
+}
+
+#aboutus p,h2,h4
+{
+	text-align: center;
+	color: #423752;
+	font-family: "Roboto", sans-serif;
+}
+
+.footer
+{	
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	height: 300px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #423752;
+	line-height: 1.5;
+	
+}
+
+.footer ul
+{
+	list-style-type: none;
+}
+
+.footer img
+{
+	width: 20%;
+}
+
+
